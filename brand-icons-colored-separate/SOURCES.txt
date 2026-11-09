@@ -1,0 +1,17 @@
+canva.ico: https://www.canva.com/
+capcut.ico: https://www.capcut.com/
+chatgpt.png: https://chatgpt.com/
+claude.png: https://claude.ai/
+facebook.ico: https://www.facebook.com/
+google-flow.png: https://flow.google.com/
+grok.svg: https://grok.com/
+higgsfield.png: https://higgsfield.ai/
+instagram.webp: https://www.instagram.com/
+manus-ai.ico: https://manus.im/
+meta-ads.png: https://www.vecteezy.com/png/55210890-meta-logo-square-rounded-meta-logo-meta-logo-free-download
+notebooklm.svg: https://notebooklm.google.com/
+notion.ico: https://www.notion.so/
+perplexity.svg: https://www.perplexity.ai/
+snapchat.ico: https://www.snapchat.com/
+tiktok.png: https://www.tiktok.com/
+youtube.ico: https://www.youtube.com/

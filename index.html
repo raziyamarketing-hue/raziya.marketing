@@ -306,6 +306,14 @@
         .feed-placeholder { border-radius:.75rem; }
       }
       .feeds-grid, .graphic-design-subheading {display: none !important;}
+      .case-studies { background:#f1efe8; color:var(--ink); }
+      .case-studies-content { display:flex; justify-content:space-between; align-items:center; gap:2rem; }
+      .case-studies h2 { margin:0; font:600 clamp(2.8rem,6vw,5.7rem)/.98 "Space Grotesk",sans-serif; letter-spacing:-.06em; }
+      .case-study-link { display:inline-flex; align-items:center; justify-content:center; gap:.75rem; min-height:48px; padding:0 1.35rem; border:1px solid var(--ink); border-radius:999px; background:var(--ink); color:#f7f5ef; font:600 .85rem "DM Sans",sans-serif; transition:background .2s ease,color .2s ease,transform .2s ease; }
+      .case-study-link:hover { background:var(--lime); color:var(--ink); transform:translateY(-2px); }
+      .case-study-link:focus-visible { outline:3px solid #8c8b00; outline-offset:4px; }
+      .case-study-link svg { width:1rem; height:1rem; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+      @media(max-width:600px) { .case-studies-content { align-items:flex-start; flex-direction:column; } }
     </style>
     <style>
       /* Targeted portfolio updates */
@@ -1333,6 +1341,16 @@ production for brands. I take projects from research and scripting to shooting, 
             <div class="feed-placeholder"><span>Feed 03 · 9:16</span></div>
             <div class="feed-placeholder"><span>Feed 04 · 9:16</span></div>
           </div>
+        </div>
+      </section>
+
+      <section class="case-studies section-pad" id="case-studies" aria-labelledby="case-studies-title">
+        <div class="case-studies-content">
+          <h2 id="case-studies-title">Case Studies</h2>
+          <a class="case-study-link" href="realestate%20case%20studies/RSindex.html" aria-label="View real estate case study">
+            Real Estate
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg>
+          </a>
         </div>
       </section>
 
